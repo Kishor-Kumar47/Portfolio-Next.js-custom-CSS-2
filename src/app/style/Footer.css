@@ -1,0 +1,106 @@
+.footer-background {
+    background-color: #ecfccb; /* bg-lime-100 */
+  }
+  
+  .footer {
+    color: #4b5563; /* text-gray-600 */
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  @media (min-width: 640px) {
+    .footer-container {
+      flex-direction: row;
+    }
+  }
+  
+  .footer-title {
+    display: flex;
+    font-weight: 500;
+    color: #1f2937; /* text-gray-900 */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-brand {
+    font-size: 1.25rem;
+    color: #65a30d; /* text-lime-600 */
+    margin-left: 12px;
+  }
+  
+  .footer-description {
+    font-size: 0.875rem;
+    color: #6b7280; /* text-gray-500 */
+    margin-top: 16px;
+    text-align: center;
+    border-top: 2px solid #e5e7eb;
+    padding-top: 8px;
+  }
+  
+  @media (min-width: 640px) {
+    .footer-description {
+      margin-top: 0;
+      border-top: none;
+      border-left: 2px solid #e5e7eb;
+      padding-top: 0;
+      padding-left: 16px;
+    }
+  }
+  
+  .footer-link {
+    color: #4b5563; /* text-gray-600 */
+    margin-left: 4px;
+    text-decoration: none;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  
+  @media (min-width: 640px) {
+    .footer-icons {
+      margin-top: 0;
+      margin-left: auto;
+    }
+  }
+  
+  .footer-icon {
+    font-size: 1.5rem;
+    color: #6b7280; /* text-gray-500 */
+    margin-left: 12px;
+    transition: color 0.3s;
+  }
+  
+  .footer-icon:hover {
+    color: #1e3a8a; /* Custom hover color */
+  }
+  
+  .footer-facebook:hover {
+    color: #0ea5e9; /* hover:text-sky-500 */
+  }
+  
+  .footer-github:hover {
+    color: #38bdf8; /* hover:text-sky-300 */
+  }
+  
+  .footer-instagram:hover {
+    color: #ec4899; /* hover:text-pink-500 */
+  }
+  
+  .footer-youtube:hover {
+    color: #ef4444; /* hover:text-red-500 */
+  }
+  
+  .footer-tiktok:hover {
+    color: #4f46e5; /* hover:text-indigo-600 */
+  }
+  

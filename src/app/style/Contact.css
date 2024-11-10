@@ -1,0 +1,100 @@
+.contact-section {
+    color: #4b5563; /* text-gray-600 */
+    position: relative;
+  }
+  
+  .contact-map {
+    position: absolute;
+    inset: 0;
+    background-color: #d1d5db; /* bg-gray-300 */
+  }
+  
+  .contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 96px 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .contact-form {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff; /* bg-white */
+    border-radius: 8px;
+    padding: 32px;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-title {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #1f2937; /* text-gray-900 */
+    margin-bottom: 8px;
+  }
+  
+  .contact-description {
+    font-size: 0.875rem;
+    color: #4b5563; /* text-gray-600 */
+    margin-bottom: 20px;
+  }
+  
+  .contact-input-group {
+    margin-bottom: 16px;
+  }
+  
+  .contact-label {
+    font-size: 0.875rem;
+    color: #4b5563; /* text-gray-600 */
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  .contact-input,
+  .contact-textarea {
+    width: 100%;
+    background-color: #ffffff; /* bg-white */
+    border: 1px solid #d1d5db; /* border-gray-300 */
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 1rem;
+    color: #374151; /* text-gray-700 */
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .contact-input:focus,
+  .contact-textarea:focus {
+    border-color: #6366f1; /* focus:border-indigo-500 */
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2); /* focus:ring-indigo-200 */
+  }
+  
+  .contact-textarea {
+    height: 8rem;
+    resize: none;
+  }
+  
+  .contact-button {
+    background-color: #6366f1; /* bg-indigo-500 */
+    color: #ffffff;
+    padding: 8px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-button:hover {
+    background-color: #4f46e5; /* hover:bg-indigo-600 */
+  }
+  
+  .contact-info {
+    font-size: 0.75rem;
+    color: #6b7280; /* text-gray-500 */
+    margin-top: 12px;
+    text-align: center;
+  }
+  
